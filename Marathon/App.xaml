@@ -4,6 +4,19 @@
              xmlns:local="clr-namespace:Marathon"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="{x:Type Button}" >
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontFamily" Value="Arial Italic"/>
+            <Setter Property="FontSize" Value="19"/>
+            
+        </Style>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+        
     </Application.Resources>
 </Application>
+
